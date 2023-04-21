@@ -1,11 +1,9 @@
-.main-bg {
-    background-image: url(../img/Bloodborne_0.jpg);
-    background-position: top center;
-    background-size: cover;
-    padding: 25%;
-    background-attachment: fixed;
-}
 
 p {
     color: black;
+}
+
+.carrusel {
+    margin: 10rem auto;
+    width: 50%;
 }

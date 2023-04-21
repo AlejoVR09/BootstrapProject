@@ -10,90 +10,112 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+      </nav>
+  </header>
 
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-           </div>
-        </nav>
-    </header>
-
-    <!-- <section>
-        <ul class="list-group">
-            <li class="list-group-item active" aria-current="true">An active item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
-          </ul>
-    </section>
-    <section>
-        <div class="mb-3">
-            <label for="formFile" class="form-label">Default file input example</label>
-            <input class="form-control" type="file" id="formFile">
-          </div>
-          <div class="mb-3">
-            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple>
-          </div>
-          <div class="mb-3">
-            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
-            <input class="form-control" type="file" id="formFileDisabled" disabled>
-          </div>
-          <div class="mb-3">
-            <label for="formFileSm" class="form-label">Small file input example</label>
-            <input class="form-control form-control-sm" id="formFileSm" type="file">
-          </div>
-          <div>
-            <label for="formFileLg" class="form-label">Large file input example</label>
-            <input class="form-control form-control-lg" id="formFileLg" type="file">
+  <!-- <section>
+      <ul class="list-group">
+          <li class="list-group-item active" aria-current="true">An active item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+  </section>
+  <section>
+      <div class="mb-3">
+          <label for="formFile" class="form-label">Default file input example</label>
+          <input class="form-control" type="file" id="formFile">
         </div>
-    </section> -->
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+          <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="mb-3">
+          <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+          <input class="form-control" type="file" id="formFileDisabled" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Small file input example</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div>
+          <label for="formFileLg" class="form-label">Large file input example</label>
+          <input class="form-control form-control-lg" id="formFileLg" type="file">
+      </div>
+  </section> -->
 
-    <main>
-        <section class="main-bg">
+  <main>
+      <section class="main-bg">
 
-        </section>
+      </section>
 
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magnam nesciunt ipsam a! Magni veritatis officia blanditiis eligendi! Consequatur harum dolores commodi voluptate debitis pariatur vitae neque quisquam, vero repellendus voluptatem nemo quam nisi laborum, dignissimos nobis saepe, doloribus magnam consequuntur similique aliquid aspernatur nesciunt ea suscipit! Commodi quas molestiae deleniti repellat, nemo eius maiores temporibus a laudantium, porro praesentium, dolorum soluta dignissimos harum fugit! Eius nulla nostrum quaerat corrupti omnis velit, hic explicabo cum culpa cumque rem sed architecto qui dolore nihil temporibus eaque quam laudantium soluta ad neque! Asperiores voluptate animi, minus commodi sapiente quasi non tenetur obcaecati beatae! Cumque, soluta voluptatem similique cupiditate repudiandae veritatis illum optio consectetur excepturi nulla dolorum, dignissimos facere culpa quam at ipsum fugit neque. Deserunt iste accusamus quam at praesentium officiis vitae totam. Earum, reprehenderit, at placeat architecto laborum distinctio officia ut atque esse sit autem ab nemo ipsam, aspernatur repudiandae asperiores quis neque dignissimos corporis aut ipsa. Saepe quos aspernatur fuga totam odio eum officia tenetur earum id! Consectetur molestias nisi dolore sit. Unde recusandae aspernatur molestias tenetur totam, repellat, temporibus in fuga libero eos sint voluptate dicta, optio vero ex dolore accusantium repellendus reprehenderit ea sequi facere provident ratione! Blanditiis.</p>
-        </section>
+      <section class="carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/Bloodborne_0.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallpapercave.com/wp/wp1835122.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.hdqwalls.com/wallpapers/bloodborne-the-old-hunters.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>        </section>
 
-    </main>
-    <footer></footer>
-    
+  </main>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
