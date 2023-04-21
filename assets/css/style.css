@@ -7,3 +7,13 @@ p {
     margin: 10rem auto;
     width: 50%;
 }
+
+.card {
+    margin: 1rem;
+}
+
+.cardI {
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+}
