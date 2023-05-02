@@ -41,3 +41,17 @@ p {
     z-index: -1;
     
 }
+
+.cardHW {
+    height: 20rem;
+    object-fit: contain;
+}
+
+.banner2 {
+    background-image: url(https://joseppons.com/formacion/wp-content/uploads/2020/11/servicios-salon-barberia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 25%;
+}
