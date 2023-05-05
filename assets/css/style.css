@@ -3,6 +3,10 @@ p {
     color: black;
 }
 
+.margin-top {
+    margin-top: 5rem;
+}
+
 .carrusel {
     margin: 10rem auto;
     width: 50%;
