@@ -7,6 +7,16 @@ p {
     margin: 10rem auto;
     width: 50%;
 }
+.carruselPedidos {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 85%;
+}
+
+.bgCarrusel {
+    width: 100%;
+    background-color: black;
+}
 
 .card {
     margin: 5rem 1rem 0rem 1rem;
