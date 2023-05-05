@@ -9,11 +9,49 @@ p {
 }
 
 .card {
-    margin: 1rem;
+    margin: 5rem 1rem 0rem 1rem;
 }
 
 .cardI {
     width: 100%;
     height: 10rem;
     object-fit: contain;
+}
+
+.banner {
+    background-image: url(https://www.yhonnyberooster.com/wp-content/uploads/2020/08/barbershopRollo-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 25%;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 70%;
+    z-index: -1;
+    
+}
+
+.cardHW {
+    height: 20rem;
+    object-fit: contain;
+}
+
+.banner2 {
+    background-image: url(https://joseppons.com/formacion/wp-content/uploads/2020/11/servicios-salon-barberia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 25%;
 }
