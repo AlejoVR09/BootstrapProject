@@ -24,5 +24,17 @@ a {
 
 .cardI {
     width: 100%;
+    height: 10rem;
     object-fit: contain;
+}
+
+.cardI2 {
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.size {
+    margin: 0 auto;
+    width: 80%;
 }
